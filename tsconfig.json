@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "include": ["./src/**/*"],
+  "exclude": ["./src/**/*.test.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["es2015"],
+    "declaration": true,
+    "noImplicitReturns": true,
+  }
+}
